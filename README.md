@@ -34,7 +34,7 @@ By calling the schema visualization, I can see the nodes and relationships avail
 
 `CALL db.schema.visualization`
 
-![schema screenshot](images\Screenshot_2025-05-14_115128.png)
+![schema screenshot](images/Screenshot_2025-05-14_115128.png)
 
 I can see that the schema includes a node called Movies with multiple relationships coming into it, and one going out to Genre.
 
@@ -47,11 +47,11 @@ LIMIT 3
 ```
 The `g` here works as an alias.
 
-![image](images\Screenshot_2025-05-14_121045.png)
+![image](images/Screenshot_2025-05-14_121045.png)
  
  And when I expand the graph of the nodes, I can see every relationship that specific node has. 
 
-![image](images\Screenshot_2025-05-14_121538.png)
+![image](images/Screenshot_2025-05-14_121538.png)
 
 To see all the properties related to the genre, meaning the list of genres included in the database, I can get the values in the *name* property.
 
@@ -89,7 +89,7 @@ RETURN actor, m
 
 And I get a graph with the central node being the movie and a bunch of nodes that are Persons who acted in it.
 
-![image](images\Screenshot_2025-05-14_124309.png)
+![image](images/Screenshot_2025-05-14_124309.png)
 
 The table view will have an actor and a movie column with all the properties related to each Person node and the movie information repeated each time.
 
